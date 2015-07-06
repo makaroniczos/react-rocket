@@ -9,6 +9,8 @@ var CurrentUserStore   = require('./stores/CurrentUserStore');
 var Header             = require('./components/Header');
 var Footer             = require('./components/Footer');
 
+var AboutPage          = require('./components/About');
+
 var App = React.createClass({
 
   mixins: [Reflux.ListenerMixin],
@@ -45,6 +47,9 @@ var App = React.createClass({
         <RouteHandler params={this.props.params}
                       query={this.props.query}
                       currentUser={this.state.currentUser} />
+
+        <AboutPage />
+
 
         <Footer />
 

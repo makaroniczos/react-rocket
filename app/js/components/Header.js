@@ -8,7 +8,7 @@ var Header = React.createClass({
     return (
       <header>
 
-        Header
+        GHHeader
 
       </header>
     );

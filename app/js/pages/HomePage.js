@@ -15,13 +15,7 @@ var HomePage = React.createClass({
       <DocumentTitle title="Home">
         <section className="home-page">
 
-          <div>
-            Home
-          </div>
 
-          <div>
-            <Link to="Search">Search</Link>
-          </div>
 
         </section>
       </DocumentTitle>
